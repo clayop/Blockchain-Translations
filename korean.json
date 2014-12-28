@@ -693,7 +693,7 @@
             "notifications_limit" : "입출금 알림 한도",
             "notifications_limit_body" : "알림 한도를 넘었습니다. 24시간 동안 알림이 중지됩니다",
             "malformed_url" : "비정상적인 URL로 이메일 알림을 보내려고 하였습니다. 알림이 중지됩니다.",
-            "confirmation_code_title" : "내 지갑 확인 코드",
+            "confirmation_code_title" : "내 지갑 승인 코드",
             "wallet_welcome_title" : "환영합니다",
             "password_hints_title" : "내 지갑 비밀번호 힌트",
             "account_locked_title" : "내 지갑 계정이 잠김",
@@ -709,8 +709,8 @@
             "next_page" : "다음 페이지"
       },
       "unconfirmed":{
-            "title" : "{0} 미확인 거래",
-            "meta_description" : "미확인 비트코인 거래 목록",
+            "title" : "{0} 미승인 거래",
+            "meta_description" : "미승인 비트코인 거래 목록",
             "header" : "{0} 미확인 거래",
             "sub_header" : "새로운 비트코인 거래 실시간 업데이트 목록",
             "summary" : "요약",
@@ -779,7 +779,7 @@
             "tooltips" : {
                 "balance" : {
                     "title" : "잔고",
-                    "tip" : "비트코인 지갑의 잔고를 보여줍니다. 모든 거래가 확인되기 전까지는 이 금액 전부를 사용할 수 없을 수도 있습니다."
+                    "tip" : "비트코인 지갑의 잔고를 보여줍니다. 모든 거래가 승인되기 전까지는 이 금액 전부를 사용할 수 없을 수도 있습니다."
                 },
                 "connection_status" : {
                     "title" : "연결 상태",
@@ -860,10 +860,10 @@
                 "inactivity_30_minutes" : "30분",
                 "inactivity_never" : "설정안함",
                 "fee_policy" : "기본 수수료 정책",
-                "fee_policy_description" : "Blockchain.info에서의 거래는 무료입니다. 하지만 비트코인 네트워크는 거래 확인 속도를 높이고 네트워크를 지원하고 위해 채굴자에게 돌아가는 추가적인 수수료를 요구할 수 있습니다.",
+                "fee_policy_description" : "Blockchain.info에서의 거래는 무료입니다. 하지만 비트코인 네트워크는 거래 승인 속도를 높이고 네트워크를 지원하고 위해 채굴자에게 돌아가는 추가적인 수수료를 요구할 수 있습니다.",
                 "fee_policy_low" : "절약",
                 "fee_policy_low_description" : "절대적으로 필요한 경우를 제외하고는 채굴자 수수료를 포함하지 않음.",
-                "fee_policy_low_warning" : "거래 확인속도가 매우 느림",
+                "fee_policy_low_warning" : "거래 승인속도가 매우 느림",
                 "fee_policy_normal" : "보통",
                 "fee_policy_normal_description" : "비트코인 클라이언트에 의해 추천되는 수수료 정책을 따름.",
                 "fee_policy_high" : "넉넉히",
@@ -892,14 +892,14 @@
                 "notifications_when_both" : "비트코인을 보내거나 받을 때",
                 "sends" : "비트코인을 보낼 때",
                 "receives" : "비트코인을 받을 때",
-                "notifications_confirmations" : "다음 확인 수 후",
+                "notifications_confirmations" : "다음 승인 수 후",
                 "instantly" : "즉시",
-                "one_confirmation" : "1 확인",
-                "two_confirmations" : "2 확인",
-                "three_confirmations" : "3 확인",
-                "four_confirmations" : "4 확인",
-                "five_confirmations" : "5 확인",
-                "six_confirmations" : "6 확인",
+                "one_confirmation" : "1 승인",
+                "two_confirmations" : "2 승인",
+                "three_confirmations" : "3 승인",
+                "four_confirmations" : "4 승인",
+                "five_confirmations" : "5 승인",
+                "six_confirmations" : "6 승인",
                 "device_pairing" : "장치 연결",
                 "device_pairing_description" : "아이폰이나 안드로이드 장치와 연결하시려면 아래 코드를 스캔하세요.",
                 "show_hide_pairing_code" : "연결 코드 보이기 / 숨기기.",
